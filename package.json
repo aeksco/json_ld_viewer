@@ -1,0 +1,24 @@
+{
+  "name": "json_ld_viewer",
+  "version": "0.0.1",
+  "description": "JSON-LD Viewer",
+  "browserify": {
+    "transform": [
+      "coffeeify",
+      [
+        "jadeify",
+        {
+          "basedir": "node_modules/"
+        }
+      ]
+    ],
+    "extension": [
+      "coffee"
+    ]
+  },
+  "dependencies": {
+    "d3": "~3.5",
+    "underscore": "~1.8",
+  },
+  "author": "aeksco@gmail.com"
+}
