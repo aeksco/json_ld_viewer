@@ -238,8 +238,8 @@ viewRDF = (element, w, h, json, nodeWidth) ->
   return
 
 # TODO - remove and export via a standardized wrapper function
-window.viewRDFNew = viewRDF
+# window.viewRDFNew = viewRDF
 
 # # # # #
 
-# module.exports = viewRDF
+module.exports = viewRDF

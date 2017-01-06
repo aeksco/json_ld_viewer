@@ -16,9 +16,5 @@
       "coffee"
     ]
   },
-  "dependencies": {
-    "d3": "~3.5",
-    "underscore": "~1.8",
-  },
   "author": "aeksco@gmail.com"
 }
